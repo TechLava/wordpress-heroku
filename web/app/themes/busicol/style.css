@@ -1,0 +1,49 @@
+/*
+	Theme Name: Althectic Solutions
+	Description: Custom theme for this website by matnex mix
+	Author: Matnex Mix
+	Version: 1.0.0
+
+*/
+.bg-image {
+	background-image: url('');
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+.block-over{
+	display: block;
+	text-decoration: none;
+	position: relative;
+	overflow: hidden;
+}
+.block-over .details{
+	position: absolute;
+	bottom: 0; left: 0;
+	width: 100%; height: 0%;
+	overflow: hidden;
+	background: rgba(40,167,69,0.7);
+}
+.block-over:hover .details{
+	animation: slideUp .5s forwards;
+}
+@keyframes slideUp{
+	from {
+		height: 0%;
+	}
+	to {
+		height: 100%;
+	}
+}
+.block-hover-success {
+	transition: background .4s;
+}
+.block-hover-success:hover {
+	background: #28a745 !important;
+	border: none !important;
+	color: white !important;
+}
+.text-hover-success:hover, a.text-hover-success:hover {
+	color: #28a745 !important;
+	text-decoration: none;
+}
