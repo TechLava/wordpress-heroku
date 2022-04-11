@@ -40,8 +40,8 @@
 	"predis/predis": "1.1.1",
 	"humanmade/s3-uploads": "2.0.0-beta3",
 	"wpackagist-plugin/debug-bar": "0.9",
-	"wpackagist-plugin/wordpress-importer": "0.7",
-	"wpackagist-plugin/the-social-links": "2.0.5"
+	"wpackagist-plugin/wordpress-importer": "*",
+	"wpackagist-plugin/the-social-links": "*"
   },
   "require-dev": {
 	"heroku/heroku-buildpack-php": "*",
