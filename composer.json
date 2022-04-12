@@ -31,7 +31,7 @@
 	"koodimonni/composer-dropin-installer": "1.1.0",
 	"johnpbloch/wordpress": "4.9.2",
 	"roots/wp-password-bcrypt": "1.0.0",
-	"wpackagist-plugin/wordfence": "6.3.22",
+	"wpackagist-plugin/wordfence": "7.5.9",
 	"wpackagist-plugin/all-in-one-seo-pack": "2.4.4",
 	"wpackagist-plugin/nginx-helper": "1.9.10",
 	"wpackagist-plugin/sendgrid-email-delivery-simplified": "1.11.7",
