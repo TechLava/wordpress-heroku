@@ -11,7 +11,12 @@
 	"preferred-install": "dist",
 	"platform":{
 	  "php": "7.0",
-	  "ext-gettext": "1.0"
+	  "ext-gettext": "1.0",
+	  "ext-gd": "*",
+	  "ext-intl": "*",
+	  "ext-xsl": "*",
+	  "ext-gmagick": "*",
+	  "ext-imagick": "*"
 	}
   },
   "repositories": [

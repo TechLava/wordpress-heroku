@@ -1,9 +1,3 @@
 # Install extra php packages
 
 imagemagick
-
-php-gd
-php-intl
-php-xsl
-php-gmagick
-php-imagick
