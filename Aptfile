@@ -1,0 +1,5 @@
+# Install extra php packages
+
+php7.4-gd
+php7.4-intl
+php7.4-xsl
