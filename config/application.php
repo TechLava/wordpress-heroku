@@ -83,10 +83,7 @@ if (file_exists($env_config)) {
 /**
  * URLs
  */
-if (array_key_exists("HTTPS", $_SERVER) && 'on' === $_SERVER["HTTPS"]) {
-    $_SERVER['HTTPS'] = 'on';
-}
-else if (array_key_exists("SERVER_PORT", $_SERVER) && 443 === (int)$_SERVER["SERVER_PORT"]) {
+if (array_key_exists("SERVER_PORT", $_SERVER) && 443 === (int)$_SERVER["SERVER_PORT"]) {
     $_SERVER['HTTPS'] = 'on';
 }
 else if (array_key_exists("HTTP_X_FORWARDED_SSL", $_SERVER) && 'on' === $_SERVER["HTTP_X_FORWARDED_SSL"]) {
@@ -99,6 +96,7 @@ else if (array_key_exists('HTTP_X_FORWARDED_PROTO', $_SERVER) && $_SERVER["HTTP_
 $_http_host_schema = array_key_exists('HTTPS', $_SERVER) && $_SERVER['HTTPS'] == 'on' ? 'https' : 'http';
 $_http_host_name = array_key_exists('HTTP_HOST', $_SERVER) ? $_SERVER['HTTP_HOST'] : 'localhost';
 $_server_http_url = $_http_host_schema."://".$_http_host_name;
+die($_server_http_url);
 
 define('WP_HOME', env('WP_HOME') ?: $_server_http_url);
 define('WP_SITEURL', env('WP_SITEURL') ?: $_server_http_url."/wp");
