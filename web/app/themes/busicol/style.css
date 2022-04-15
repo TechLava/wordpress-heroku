@@ -5,7 +5,7 @@
 	Version: 1.0.0
 
 */
-* {
+*:not(.fa) {
     font-family: 'Poppins', serif !important;
 }
 
