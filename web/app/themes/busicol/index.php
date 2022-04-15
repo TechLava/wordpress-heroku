@@ -1,7 +1,7 @@
 <?php include 'components/include.php'; ?>
 
 <!-- Custom Index Header Start -->
-<div class="w-100 bg-image overflow-hidden" style="max-height: 800px; background-image: url('<?php echo __BASE.'/img/banner/banner2.png'; ?>');">
+<div class="w-100 bg-image overflow-hidden" style="max-height: 800px; background-image: url('<?php echo __BASE.'/img/banner/techcity.jpg'; ?>');">
     <div class="p-4 p-md-5" style="background: rgba(0,0,0,0.5);">
         <div class="ml-xl-5 pl-xl-5">
 			
