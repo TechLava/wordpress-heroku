@@ -1,4 +1,4 @@
-<div class="bg-image" style="background: url('<?php echo __BASE.'/img/banner/about_bg.png'; ?>');">
+<div class="bg-image" style="background: url('<?php echo __BASE.'/img/banner/benefit.png'; ?>');">
 	<div class="py-5 px-sm-5" style="background: rgba(0,0,0,0.6);">
 		<div class="container p-lg-5 my-5">
 			<div class="row justify-content-center">

@@ -62,13 +62,13 @@
 <div class="row mb-5 alert-success p-4 p-md-5 align-items-center text-dark" style="background: #F5FBFF">
 	<div class="col-4 text-center">
 		<h1 class="">
-			<span data-func="counter" data-from="0" data-to="430" data-step="1.5">430</span>+
+			<span data-func="counter" data-from="0" data-to="10" data-step="1.5">10</span>+
 		</h1>
 		<span>Total Projects</span>
 	</div>
 	<div class="col-4 text-center">
 		<h1 class="">
-			<span data-func="counter" data-from="0" data-to="10" data-step="0.5">10</span>
+			<span data-func="counter" data-from="0" data-to="10" data-step="0.5">1</span>
 		</h1>
 		<span>On Going Projects</span>
 	</div>
