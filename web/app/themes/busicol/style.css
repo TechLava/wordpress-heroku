@@ -5,6 +5,10 @@
 	Version: 1.0.0
 
 */
+* {
+    font-family: 'Poppins', serif !important;
+}
+
 .bg-image {
 	background-image: url('');
 	background-size: cover;
