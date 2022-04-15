@@ -11,12 +11,7 @@
 	"preferred-install": "dist",
 	"platform":{
 	  "php": "7.0",
-	  "ext-gettext": "1.0",
-	  "ext-gd": "*",
-	  "ext-intl": "*",
-	  "ext-xsl": "*",
-	  "ext-gmagick": "*",
-	  "ext-imagick": "*"
+	  "ext-gettext": "1.0"
 	}
   },
   "repositories": [
@@ -29,6 +24,8 @@
   "require": {
 	"php": "^7.0",
 	"ext-gettext": "*",
+	"ext-gd": "*",
+	"ext-imagick": "*",
 	"composer/installers": "1.5.0",
 	"vlucas/phpdotenv": "2.4.0",
 	"wp-cli/wp-cli" : "1.4.1",
