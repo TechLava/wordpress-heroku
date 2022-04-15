@@ -11,4 +11,6 @@ chmod -R a-w $HOME/web
 # - allow write to web/app/uploads
 chmod -R u+w $HOME/web/app/uploads
 
-chmod -R u+w $HOME/web/wp/wp-content
+mkdir $HOME/web/app/wflogs
+
+chmod -R u+w $HOME/web/app/wflogs
