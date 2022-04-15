@@ -92,11 +92,14 @@ else if (array_key_exists("HTTP_X_FORWARDED_SSL", $_SERVER) && 'on' === $_SERVER
 else if (array_key_exists('HTTP_X_FORWARDED_PROTO', $_SERVER) && $_SERVER["HTTP_X_FORWARDED_PROTO"] == 'https') {
     $_SERVER['HTTPS'] = 'on';
 }
+else if (array_key_exists('HTTP_CF_VISITOR', $_SERVER) && strpos($_SERVER["HTTP_CF_VISITOR"], 'https') !== FALSE ) {
+    $_SERVER['HTTPS'] = 'on';
+}
 
 $_http_host_schema = array_key_exists('HTTPS', $_SERVER) && $_SERVER['HTTPS'] == 'on' ? 'https' : 'http';
 $_http_host_name = array_key_exists('HTTP_HOST', $_SERVER) ? $_SERVER['HTTP_HOST'] : 'localhost';
 $_server_http_url = $_http_host_schema."://".$_http_host_name;
-print_r("<pre>");
+// print_r("<pre>");
 print_r( $_SERVER );
 die($_server_http_url);
 
