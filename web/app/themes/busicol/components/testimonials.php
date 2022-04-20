@@ -36,9 +36,9 @@
 						?>
 						<hr/>
 						<p>
-							<i class="fa fa-quote-left"></i>
+							<!-- <i class="fa fa-quote-left"></i> -->
 							&nbsp;<?php echo $post->post_content; ?>&nbsp;
-							<i class="fa fa-quote-right"></i>
+							<!-- <i class="fa fa-quote-right"></i> -->
 						</p>
 						<br/>
 						<div class="d-flex">
