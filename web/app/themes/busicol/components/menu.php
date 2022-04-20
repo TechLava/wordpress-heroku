@@ -9,7 +9,7 @@
         </div>
     </a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar">
-        <span class="fa fa-2x fa-bars"></span>
+        <span class="fa fa-lg fa-bars"></span>
     </button>
     <div class="collapse navbar-collapse" id="navbar">
         <ul class="navbar-nav mx-auto align-items-center font-weight-light">
